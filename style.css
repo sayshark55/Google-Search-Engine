@@ -1,112 +1,86 @@
-.bodyArea{
-  background-color: white;
-  font-family: roboto;
+.backgr{
+  background-color:#262626;
 }
 .mainDiv{
-  display: block;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
 }
-.headText{
-  color: rgb(255, 0, 0);
-  text-shadow: 2px 2px 3px grey;
-}
-.calcDiv{
+.headGoogle{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgb(231, 246, 255);
-  width: 300px;
-  height: 420px;
-  border-radius: 8px;
-  border-width: 8px;
-  border-style: double;
-  border-color: rgb(0, 119, 255);
+  margin-top: 150px;
 }
-#output{
-  text-align: right;
-  margin-top: 8px;
-  width: 260px;
-  height: 80px;
-  background-color: rgb(0, 119, 255);
-  border: none;
-  outline: none;
-  border-radius: 6px;
-  font-size: 32px;
+.searchBar{
   color: white;
-  padding-right: 20px;
-}
-#output::placeholder{
-  color: rgb(200, 229, 255);
-  
-}
-#output:active{
-  border: none;
-  outline: none;
-}
-
-.buttonDiv{
+  font-family: Roboto;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 500px;
+  height: 40px;
+  background-color: #262626;
+  border-radius: 30px;
+  border-color: white;
+  border-width: 1px;
+  padding-left: 20px;
+}
+.btnGroup{
+  display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  margin-top: 20px;
+}
+.searchBtn{
+  background-color: rgba(56, 56, 56, 0.5);
+  width: 150px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Roboto;
+  margin-right: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.luckyBtn{
+  background-image: -moz-element("img.bmp");
+  background-color: rgba(56, 56, 56, 0.5);
+  width: 150px;
+  height: 40px;
+  border-width: 0px;
+  border-radius: 5px;
+  color: white;
+  font-family: Roboto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 button:hover{
-  transition: background-color 500ms;
-  transition: color 500ms;
-  background-color: rgb(0, 119, 255);
+  border-color: #868686;
+  border-width: 1px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.linkSpace{
+  margin-left: 7px;
+  text-decoration: none;
+}
+
+.langBar{
+  text-align: center;
   color: white;
+  font-family: Roboto;
 }
-.buttonW{
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  box-shadow: 2px 2px 4px grey;
-  font-size: 32px;
-  margin-right: 15px;
-  margin-top: 15px;
+a:active{
+  color: #0078ff;
 }
-.buttonL{
-  background-color: white;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  box-shadow: 2px 2px 4px grey;
-  font-size: 32px;
+a:link{
+  color: #0078ff;
 }
-.buttonR{
-  background-color: rgb(0, 119, 255);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  border: none;
-  box-shadow: 2px 2px 4px grey;
-  font-size: 32px;
+a:visited{
+  color: #0078ff;
 }
-.clearBut{
-  background-color: rgb(0, 119, 255);
-  width: 100px;
-  height: 50px;
-  border-radius: 5px;
-  border: none;
-  box-shadow: 2px 2px 4px grey;
-  font-size: 20px;
-  margin-top: 15px;
-  margin-right: 15px;
-  margin-left: 15px;
+a:hover{
+  text-decoration: underline;
 }
-.oldValue{
-  background-color: rgb(0, 119, 255);
-  width: 150px;
-  height: 50px;
-  border-radius: 5px;
-  border: none;
-  box-shadow: 2px 2px 4px grey;
-  font-size: 20px;
-  margin-top: 15px;
-  margin-right: 15px;
+input:hover{
+  background-color: #363636;
 }
