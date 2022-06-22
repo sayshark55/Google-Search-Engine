@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="script.js"></script>
+</head>
+<body class="bodyArea">
+  <div class="mainDiv">
+    <h1 class="headText">Calculator</h1>
+<div class="calcDiv">
+  <input type="text" placeholder="Calculator" id="output">
+<div class="buttonDiv">
+<div class="row">
+<button class="buttonW" onclick="setOutputData(7)">7</button>
+<button class="buttonW" onclick="setOutputData(8)">8</button>
+<button class="buttonW" onclick="setOutputData(9)">9</button>
+<button class="buttonL" onclick="setOutputData('+')">+</button>
+</div>
+<div class="row2">
+  <button class="buttonW" onclick="setOutputData(4)">4</button>
+  <button class="buttonW" onclick="setOutputData(5)">5</button>
+  <button class="buttonW" onclick="setOutputData(6)">6</button>
+  <button class="buttonL" onclick="setOutputData('-')">-</button>
+</div>
+<div class="row3">
+  <button class="buttonW" onclick="setOutputData(1)">1</button>
+  <button class="buttonW" onclick="setOutputData(2)">2</button>
+  <button class="buttonW" onclick="setOutputData(3)">3</button>
+  <button class="buttonL" onclick="setOutputData('*')">*</button>
+</div>
+<div class="row4">
+  <button class="buttonW" onclick="setOutputData(0)">0</button>
+  <button class="buttonW" onclick="setOutputData('.')">.</button>
+  <button class="buttonW" onclick="setOutputData('/')">/</button>
+  <button class="buttonR" onclick="equalToBtn()">=</button>
+</div>
+<div class="row5">
+  <button class="clearBut" onclick="clearAll()">Clear All</button>
+  <button class="oldValue" onclick="prevValue()">Previous Value</button>
+</div>
+</div>
+</div>
+  </div>
+</body>
+</html>

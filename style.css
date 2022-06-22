@@ -1,0 +1,112 @@
+.bodyArea{
+  background-color: white;
+  font-family: roboto;
+}
+.mainDiv{
+  display: block;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.headText{
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 2px 3px grey;
+}
+.calcDiv{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(231, 246, 255);
+  width: 300px;
+  height: 420px;
+  border-radius: 8px;
+  border-width: 8px;
+  border-style: double;
+  border-color: rgb(0, 119, 255);
+}
+#output{
+  text-align: right;
+  margin-top: 8px;
+  width: 260px;
+  height: 80px;
+  background-color: rgb(0, 119, 255);
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 32px;
+  color: white;
+  padding-right: 20px;
+}
+#output::placeholder{
+  color: rgb(200, 229, 255);
+  
+}
+#output:active{
+  border: none;
+  outline: none;
+}
+
+.buttonDiv{
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+button:hover{
+  transition: background-color 500ms;
+  transition: color 500ms;
+  background-color: rgb(0, 119, 255);
+  color: white;
+}
+.buttonW{
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 4px grey;
+  font-size: 32px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+.buttonL{
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 4px grey;
+  font-size: 32px;
+}
+.buttonR{
+  background-color: rgb(0, 119, 255);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 4px grey;
+  font-size: 32px;
+}
+.clearBut{
+  background-color: rgb(0, 119, 255);
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 4px grey;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+.oldValue{
+  background-color: rgb(0, 119, 255);
+  width: 150px;
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 2px 2px 4px grey;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 15px;
+}
